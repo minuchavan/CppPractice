@@ -73,6 +73,7 @@ int main()
                     }
 
                 }while(ch2!=7);
+                break;
 
            case 2:
                do{
@@ -128,6 +129,7 @@ int main()
                         break;
                     }
                }while(ch2!=7);
+               break;
 
          case 3:
              do{
@@ -165,6 +167,7 @@ int main()
                         break;
                     }
              }while(ch2!=4);
+             break;
         case 4:
             do{
                  cout<<"\n ~~~~ Deserts Menu ~~~~ ";
@@ -213,10 +216,12 @@ int main()
                         break;
             }
         }while(ch2!=6);
+        break;
     case 5:
-        cout<<"\n Total Bill  :"<<total;
-        cout<<"\nThank You";
-        }
+        cout<<"\n Total Bill  : "<<total;
+        cout<<"\n Thank You";
+    }
+
     }while(ch!=5);
 
 
